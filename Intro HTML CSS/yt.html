@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+    <head>
+        <title>Youtube clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/video.css">
+
+    </head>
+    <body>
+
+        <header class="header">
+
+            <div class="left-section">
+                <div class="buger">
+                    <img class="hamburger-menu" src="icons/hamburger-menu.svg" height="24px">
+                </div>
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+
+                <button class="search-symbol-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+
+            </div>
+
+            <div class="right-section">
+
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">Youtube apps</div>
+                </div>
+
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+
+                <img class="current-user-icon" src="icons/myprofile.jpeg">   
+            </div>
+        </header>
+
+        <nav class="side-bar">
+            
+            <div class="side-bar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="side-bar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="side-bar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="side-bar-link">
+                <img src="icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="side-bar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="side-bar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+
+        </nav>
+
+        <main>
+            <section class="video-grid">
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src ="thumbnails/thumbnail1.webp">
+                        <div class="video-time">
+                            39:48
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Inner Management [Full DVD]-Sadhguru</p>
+                            <p class="video-creator">Sadhguru</p>
+                            <p class="video-stats">8.3M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail2.webp">
+                        <div class="video-time">
+                            24:02
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic2.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Inside OpenAI, the Architect of chatGPT | The Circuit</p>
+                            <p class="video-creator">Bloomberg Originals</p>
+                            <p class="video-stats">1.1M views &#183; 4 months ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail3.webp">
+                        <div class="video-time">
+                            15:39
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Krishna: A complete incarnation of the Divine - Sadhguru</p>
+                            <p class="video-creator">Sadhguru</p>
+                            <p class="video-stats">1.1M views &#183; 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail4.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic4.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">How Ancient Kings Split a River & Fed Millions</p>
+                            <p class="video-creator">Andrew Millison</p>
+                            <p class="video-stats">271K views &#183; 11 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail5.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic5.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">The story of my life - From a dream to reality</p>
+                            <p class="video-creator">Jonna Jinton</p>
+                            <p class="video-stats">13M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail6.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic6.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">01 - Akshardham: An Introduction</p>
+                            <p class="video-creator">BAPS Swaminarayan Akshardham USA</p>
+                            <p class="video-stats">404k views &#183; 11 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src ="thumbnails/thumbnail1.webp">
+                        <div class="video-time">
+                            39:48
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Inner Management [Full DVD]-Sadhguru</p>
+                            <p class="video-creator">Sadhguru</p>
+                            <p class="video-stats">8.3M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail2.webp">
+                        <div class="video-time">
+                            24:02
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic2.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Inside OpenAI, the Architect of chatGPT | The Circuit</p>
+                            <p class="video-creator">Bloomberg Originals</p>
+                            <p class="video-stats">1.1M views &#183; 4 months ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail3.webp">
+                        <div class="video-time">
+                            15:39
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Krishna: A complete incarnation of the Divine - Sadhguru</p>
+                            <p class="video-creator">Sadhguru</p>
+                            <p class="video-stats">1.1M views &#183; 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail4.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic4.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">How Ancient Kings Split a River & Fed Millions</p>
+                            <p class="video-creator">Andrew Millison</p>
+                            <p class="video-stats">271K views &#183; 11 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail5.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic5.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">The story of my life - From a dream to reality</p>
+                            <p class="video-creator">Jonna Jinton</p>
+                            <p class="video-stats">13M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail6.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic6.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">01 - Akshardham: An Introduction</p>
+                            <p class="video-creator">BAPS Swaminarayan Akshardham USA</p>
+                            <p class="video-stats">404k views &#183; 11 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src ="thumbnails/thumbnail1.webp">
+                        <div class="video-time">
+                            39:48
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Inner Management [Full DVD]-Sadhguru</p>
+                            <p class="video-creator">Sadhguru</p>
+                            <p class="video-stats">8.3M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail2.webp">
+                        <div class="video-time">
+                            24:02
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic2.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Inside OpenAI, the Architect of chatGPT | The Circuit</p>
+                            <p class="video-creator">Bloomberg Originals</p>
+                            <p class="video-stats">1.1M views &#183; 4 months ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail3.webp">
+                        <div class="video-time">
+                            15:39
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Krishna: A complete incarnation of the Divine - Sadhguru</p>
+                            <p class="video-creator">Sadhguru</p>
+                            <p class="video-stats">1.1M views &#183; 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail4.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic4.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">How Ancient Kings Split a River & Fed Millions</p>
+                            <p class="video-creator">Andrew Millison</p>
+                            <p class="video-stats">271K views &#183; 11 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail5.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic5.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">The story of my life - From a dream to reality</p>
+                            <p class="video-creator">Jonna Jinton</p>
+                            <p class="video-stats">13M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail6.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic6.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">01 - Akshardham: An Introduction</p>
+                            <p class="video-creator">BAPS Swaminarayan Akshardham USA</p>
+                            <p class="video-stats">404k views &#183; 11 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src ="thumbnails/thumbnail1.webp">
+                        <div class="video-time">
+                            39:48
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Inner Management [Full DVD]-Sadhguru</p>
+                            <p class="video-creator">Sadhguru</p>
+                            <p class="video-stats">8.3M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail2.webp">
+                        <div class="video-time">
+                            24:02
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic2.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Inside OpenAI, the Architect of chatGPT | The Circuit</p>
+                            <p class="video-creator">Bloomberg Originals</p>
+                            <p class="video-stats">1.1M views &#183; 4 months ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail3.webp">
+                        <div class="video-time">
+                            15:39
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic1.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">Krishna: A complete incarnation of the Divine - Sadhguru</p>
+                            <p class="video-creator">Sadhguru</p>
+                            <p class="video-stats">1.1M views &#183; 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail4.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic4.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">How Ancient Kings Split a River & Fed Millions</p>
+                            <p class="video-creator">Andrew Millison</p>
+                            <p class="video-stats">271K views &#183; 11 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail5.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic5.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">The story of my life - From a dream to reality</p>
+                            <p class="video-creator">Jonna Jinton</p>
+                            <p class="video-stats">13M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class=thumbnail src ="thumbnails/thumbnail6.webp">
+                        <div class="video-time">
+                            12:24
+                        </div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channelpics/channelpic6.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">01 - Akshardham: An Introduction</p>
+                            <p class="video-creator">BAPS Swaminarayan Akshardham USA</p>
+                            <p class="video-stats">404k views &#183; 11 days ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </body>
+</html>
